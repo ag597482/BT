@@ -1,0 +1,40 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "MySQL",
+            "name": "root",
+            "connectString": "mysql://root:aman1997@localhost:3306/pets?charset=utf8",
+            "database": "pets",
+            "username": "root",
+            "password": "ck12"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "password": "ck12",
+            "database": "pets",
+            "username": "root",
+            "name": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "MySQL",
+            "name": "Pets",
+            "connectString": "mysql://root:aman1997@localhost:3306/pets?charset=utf8"
+        }
+    ]
+}
